@@ -64,7 +64,7 @@
   padding-bottom: 96px;
   background-color: #fff;
   background-repeat: no-repeat;
-  background-image: url("images/template/background.svg"), linear-gradient(to bottom right, #3FCD9B, #236A91);
+  background-image: url("images/template/background-min.png"), linear-gradient(to bottom right, #3FCD9B, #236A91);
   background-size: cover; }
   .aae-section__container.header > div.title {
     font-family: "Avenir", sans-serif;
