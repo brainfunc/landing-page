@@ -14,8 +14,26 @@ export const sectionData = [
       image: 'custom/sections/brain.svg',
       titles: ['Collect.', ' Construct.', 'Battle.'],
       description: `BrainFunc is a learning adventure where you can apply your
-      knowledge of neuroscience to compete and win in battles.`
+        knowledge of neuroscience to compete and win in battles.`
     },
+    {
+      images: [
+        'custom/sections/parts.svg',
+        'custom/sections/parts.svg',
+        'custom/sections/parts.svg'],
+      titles: ['Collect Neurons', 'Construct Parts', 'Fight Epic Battles'],
+      descriptions: [
+        `Start by buying neurons on the marketplace. Neurons available are of
+        different types. Each neuron gives you the ability to build a specific
+        part of the brain.`,
+        `The strength of a part depends on the number of neurons used to build it.
+        You can increase this by (a) collecting more neurons for
+        the part, or (b) winning battles.`,
+        `Battles pair you with a random opponent. Battles are won based on your
+        knowledge of neuro science and brain part power. Each battle win empowers
+        the parts used in the battle.`
+      ]
+    }
 ];
 
 //Collect different parts of the brain using different neurons.

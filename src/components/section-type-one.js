@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
-class Section extends Component {
+class SectionTypeOne extends Component {
   render() {
     return (
-      <div className='aae-section__container'>
+      <div className='aae-section__container type-one'>
         <div className='wrapper'>
           <img className='feature__image'
            src={`../../style/images/${this.props.image}`}/>
@@ -22,4 +22,4 @@ class Section extends Component {
   }
 }
 
-export default Section;
+export default SectionTypeOne;

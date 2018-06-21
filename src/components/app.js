@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
-import Section from '../components/section';
+import SectionTypeOne from '../components/section-type-one';
+import SectionTypeTwo from '../components/section-type-two';
+
 import Header from '../components/header';
 import Footer from '../containers/footer';
 
@@ -15,10 +17,14 @@ export default class App extends Component {
           logoImage={Constants.headerData.logoImage}
           title={Constants.headerData.title}
           subTitle={Constants.headerData.subTitle}/>
-        <Section
+        <SectionTypeOne
           image={Constants.sectionData[0].image}
           titles={Constants.sectionData[0].titles}
           description={Constants.sectionData[0].description}/>
+        <SectionTypeTwo
+          images={Constants.sectionData[1].images}
+          titles={Constants.sectionData[1].titles}
+          descriptions={Constants.sectionData[1].descriptions}/>
         <Footer
           title={Constants.footerData.title}
           leadCaptureMessage = {Constants.footerData.leadCaptureMessage}
