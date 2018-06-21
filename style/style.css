@@ -27,8 +27,9 @@
   padding: 32px;
   height: 100%; }
   .aae-section__container > div.wrapper > img.feature__image {
-    width: 80%;
-    margin: 10%; }
+    width: 60%;
+    margin: 10%;
+    margin-left: 20%; }
   .aae-section__container > div.wrapper > div.feature__action {
     font-family: "Moderneratrial", sans-serif;
     font-size: 3.25em;
@@ -63,7 +64,8 @@
   padding-bottom: 96px;
   background-color: #fff;
   background-repeat: no-repeat;
-  background-image: url("images/template/background.png"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
+  background-image: url("images/template/background.svg"), linear-gradient(to bottom right, #3FCD9B, #236A91);
+  background-size: cover; }
   .aae-section__container.header > div.title {
     font-family: "Avenir", sans-serif;
     font-size: 75px;
@@ -82,8 +84,8 @@
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 20px;
     line-height: 1.25; }
 
@@ -142,7 +144,9 @@
 @media (max-width: 1024px) {
   #logo-image {
     width: 25%;
-    margin-left: 37.5%; } }
+    margin-left: 37.5%; }
+  .aae-section__container > div.wrapper > img.feature__image {
+    margin-top: 35%; } }
 
 @media (max-width: 768px) {
   #logo-image {
@@ -156,6 +160,10 @@
       font-size: 1.5em;
       margin-top: 64px;
       margin-bottom: 32px; }
+    .aae-section__container > div.wrapper > img.feature__image {
+      width: 40%;
+      margin: 0%;
+      margin-top: 10%; }
   .aae-section__container.header > div.title {
     font-size: 60px; }
   .aae-section__container.header > div.sub-title {

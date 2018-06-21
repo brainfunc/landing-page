@@ -1,7 +1,7 @@
 export const headerData = {
   logoImage: 'custom/header/logo_white.png',
   title: 'BrainFunc',
-  subTitle: `Learn about the Brain. Fight epic Battles. Construct the best Brain!`
+  subTitle: `Learn about the Brain. Fight epic Battles. Build the ultimate Brain on the Blockchain!`
 }
 export const footerData = {
   title: 'Thanks for submitting your response',
@@ -10,7 +10,7 @@ export const footerData = {
 }
 export const sectionData = [
   {
-    image: 'custom/sections/expert_explorer.png',
+    image: 'custom/sections/brain.svg',
     title: 'Get started by buying neurons',
     description: `Buy neurons from our marketplace to get started on building
     your brain. There are 12 types of neurons (corresponding to 12 brain sub parts),

@@ -6,7 +6,8 @@ class Section extends Component {
     return (
       <div className='aae-section__container'>
         <div className='wrapper'>
-          <img className='feature__image' src={`../../style/images/${this.props.image}`}/>
+          <img className='feature__image'
+           src={`../../style/images/${this.props.image}`}/>
         </div>
         <div className='wrapper'>
           <div className='feature__action'>Collect.</div>
