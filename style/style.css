@@ -1,0 +1,201 @@
+#logo-image {
+  width: 15%;
+  margin-left: 42.5%; }
+
+#main-splash {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px; }
+
+.app__container {
+  width: 100vw; }
+
+.aae__container {
+  width: 100%; }
+
+.aae-section__container::after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  width: 100%; }
+
+.aae-section__container > div.wrapper {
+  display: inline;
+  float: left;
+  width: 50%;
+  padding: 32px;
+  height: 100%; }
+  .aae-section__container > div.wrapper > img.feature__image {
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 0%; }
+  .aae-section__container > div.wrapper > div.feature__action {
+    font-family: "Moderneratrial", sans-serif;
+    font-size: 3.25em;
+    font-weight: 600;
+    color: #212121;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 1.2; }
+  .aae-section__container > div.wrapper > div.feature__action:first-child {
+    margin-top: 10%; }
+  .aae-section__container > div.wrapper > div.feature__result {
+    font-family: "Avenir", sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #7c7c7c;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 64px; }
+
+.aae-section__container:nth-child(2n) {
+  background-color: #fff; }
+  .aae-section__container:nth-child(2n) > div.wrapper {
+    float: right; }
+
+.aae-section__container:nth-child(2n+1) {
+  background-color: #fff; }
+
+.aae-section__container.header {
+  padding-top: 32px;
+  padding-bottom: 96px;
+<<<<<<< HEAD
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-image: url("images/template/background.png"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
+=======
+  background-color: #f09358;
+  background-repeat: no-repeat;
+  background-image: url("images/template/transparent-bars.png"), linear-gradient(to top right, #E07477, #f09358);
+  background-size: cover; }
+>>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
+  .aae-section__container.header > div.title {
+    font-family: "Avenir", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    line-height: 1.0; }
+  .aae-section__container.header > div.sub-title {
+    font-family: "Avenir", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    line-height: 1.25; }
+
+.aae-section__container.footer {
+  background-color: #f09358;
+<<<<<<< HEAD
+  background-image: linear-gradient(to bottom, #3FCD9B, #236A91), url("");
+=======
+  background-image: url(""), linear-gradient(to top right, #E07477, #f09358);
+>>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
+  padding: 32px; }
+
+.signup-form__content > div.title {
+  font-family: "Avenir next", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 32px; }
+
+.signup-form__content > div.notice {
+  color: #fff;
+  opacity: 0.4;
+  font-size: 14px;
+  font-family: "Avenir next", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 32px; }
+
+.signup-form__content > form {
+  font-family: "Moderneratrial", sans-serif;
+  font-size: 18px;
+  font-weight: 300; }
+  .signup-form__content > form > input.email {
+    border-radius: 8px;
+    border: 1px solid #fff;
+    margin-left: 36.25%;
+    width: 27.5%;
+    height: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .signup-form__content > form > button.submit-button {
+    border-radius: 8px;
+    border: 1px solid #fdcd18;
+    margin-top: 16px;
+    margin-left: 36.25%;
+    width: 27.5%;
+    height: 48px;
+    color: #fff;
+    background-color: #fdcd18;
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    .signup-form__content > form > button.submit-button:hover {
+      opacity: 0.75;
+      cursor: pointer; }
+
+@media (max-width: 1024px) {
+  #logo-image {
+    width: 25%;
+    margin-left: 37.5%; } }
+
+@media (max-width: 768px) {
+  #logo-image {
+    width: 30%;
+    margin-left: 35%; }
+  .aae-section__container > div.wrapper {
+    width: 100%;
+    text-align: center;
+    padding: 16px; }
+    .aae-section__container > div.wrapper > div.feature__result {
+      font-size: 1.5em;
+      margin-top: 64px;
+      margin-bottom: 32px; }
+  .aae-section__container.header > div.title {
+    font-size: 60px; }
+  .aae-section__container.header > div.sub-title {
+    font-size: 32px;
+    margin-left: 12%;
+    margin-right: 12%; }
+  .signup-form__content > form > input.email {
+    width: 40%;
+    margin-left: 30%; }
+  .signup-form__content > form > button.submit-button {
+    width: 40%;
+    margin-left: 30%; } }
+
+@media (max-width: 512px) {
+  #logo-image {
+    width: 40%;
+    margin-left: 30%; }
+  .aae-section__container > div.wrapper > div.feature__result {
+    font-size: 1.25em; }
+  .aae-section__container.header > div.title {
+    font-size: 50px; }
+  .aae-section__container.header > div.sub-title {
+    font-size: 24px;
+    margin-left: 8%;
+    margin-right: 8%; }
+  .signup-form__content > form > input.email {
+    width: 80%;
+    margin-left: 10%; }
+  .signup-form__content > form > button.submit-button {
+    width: 80%;
+    margin-left: 10%; } }
