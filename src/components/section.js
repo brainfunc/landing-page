@@ -14,7 +14,7 @@ class Section extends Component {
           <div className='feature__action'>Battle.</div>
           <div className='feature__result'>
             Collect different parts of the brain using different neurons.
-            Battle to increase their strength. Try strength combinations
+            Battle to increase their strength. Try various combinations
             to come up with the ultimate brain!
           </div>
         </div>

@@ -28,8 +28,7 @@
   height: 100%; }
   .aae-section__container > div.wrapper > img.feature__image {
     width: 80%;
-    margin: 10%;
-    margin-bottom: 0%; }
+    margin: 10%; }
   .aae-section__container > div.wrapper > div.feature__action {
     font-family: "Moderneratrial", sans-serif;
     font-size: 3.25em;
@@ -62,16 +61,9 @@
 .aae-section__container.header {
   padding-top: 32px;
   padding-bottom: 96px;
-<<<<<<< HEAD
   background-color: #fff;
   background-repeat: no-repeat;
   background-image: url("images/template/background.png"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
-=======
-  background-color: #f09358;
-  background-repeat: no-repeat;
-  background-image: url("images/template/transparent-bars.png"), linear-gradient(to top right, #E07477, #f09358);
-  background-size: cover; }
->>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
   .aae-section__container.header > div.title {
     font-family: "Avenir", sans-serif;
     font-size: 75px;
@@ -97,11 +89,7 @@
 
 .aae-section__container.footer {
   background-color: #f09358;
-<<<<<<< HEAD
   background-image: linear-gradient(to bottom, #3FCD9B, #236A91), url("");
-=======
-  background-image: url(""), linear-gradient(to top right, #E07477, #f09358);
->>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
   padding: 32px; }
 
 .signup-form__content > div.title {

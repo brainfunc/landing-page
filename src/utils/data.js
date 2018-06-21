@@ -1,13 +1,7 @@
 export const headerData = {
-<<<<<<< HEAD
   logoImage: 'custom/header/logo_white.png',
   title: 'BrainFunc',
   subTitle: `Learn about the Brain. Fight epic Battles. Construct the best Brain!`
-=======
-  logoImage: 'custom/header/logo-min.png',
-  title: 'Decentralised real-time chat with experts',
-  mainSplashImage: 'custom/header/main_splash-min.png'
->>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
 }
 export const footerData = {
   title: 'Thanks for submitting your response',
@@ -16,7 +10,6 @@ export const footerData = {
 }
 export const sectionData = [
   {
-<<<<<<< HEAD
     image: 'custom/sections/expert_explorer.png',
     title: 'Get started by buying neurons',
     description: `Buy neurons from our marketplace to get started on building
@@ -70,32 +63,5 @@ export const sectionData = [
     description: `You can sell neurons, sub parts and major parts or even the
     entire brain on the market place. The more the strength of these items, the
     more you should keep your price!`
-=======
-    image: 'custom/sections/expert_explorer-min.png',
-    title: 'Discover the best Topic Specific Experts',
-    description: `Discover numerous top notch industry leading experts based on
-    topics you choose. View relevant credentials, social media profiles and past
-    work to make an informed decision.`
-  },
-  {
-    image: 'custom/sections/expert_scheduler-min.png',
-    title: 'Schedule timed Chat Sessions',
-    description: `Easy to schedule flexible chat sessions. Schedule 10 minute,
-    30 minute or 1 hour sessions as per your convenience and requirement.`
-  },
-  {
-    image: 'custom/sections/expert_chat_ui-min.png',
-    title: 'Own your data with decentralised storage',
-    description: `With decentralised storage, we provide you with an open data
-    graph of your interactions that you can port anywhere. You will get each
-    session transcript emailed to you as well.`
-  },
-  {
-    image: 'custom/sections/expert_chat_storage-min.png',
-    title: 'Earn money with your data',
-    description: `Earn money when third parties request access to your chat
-    session data using our data API. Chat session data is processed before sending
-    and is available only in an anonymous way.`
->>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
   }
 ];

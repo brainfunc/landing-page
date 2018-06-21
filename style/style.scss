@@ -1,7 +1,6 @@
 $font_family_1: 'Avenir', sans-serif;
 $font_family_2: 'Avenir next', sans-serif;
 $font_family_3: 'Moderneratrial', sans-serif;
-<<<<<<< HEAD
 $linear_gradient_color_1: #3FCD9B;
 $linear_gradient_color_2: #236A91;
 $background_color_dark: #fff;
@@ -12,19 +11,6 @@ $header_content_color: #fff;
 $section_content_color_action: #212121;
 $section_content_color_result: #7c7c7c;
 $notice_content_color: #fff;
-=======
-$linear_gradient_color_1: #E07477;
-$linear_gradient_color_2: #f09358;
-$background_color_dark: #fff;
-$background_color_light: #fff;
-$background_color_submit: #fdcd18;
-$background_color_header: #f09358;
-$background_color_footer: #f09358;
-$header_content_color: #ffffff;
-$section_content_color_action: #212121;
-$section_content_color_result: #7c7c7c;
-$notice_content_color: #ffffff;
->>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
 
 #logo-image {
 	width: 15%;
@@ -58,7 +44,6 @@ $notice_content_color: #ffffff;
     >img.feature__image {
 			width: 80%;
 			margin:10%;
-			margin-bottom: 0%;
 		}
 		>div.feature__action {
 			font-family: $font_family_3;
@@ -97,9 +82,8 @@ $notice_content_color: #ffffff;
 .aae-section__container.header {
 	padding-top: 32px;
 	padding-bottom: 96px;
-	background-color: $background_color_header;
+	background-color: $background_color_dark;
 	background-repeat: no-repeat;
-<<<<<<< HEAD
 	background-image:
 	url('images/template/background.png'),
 	linear-gradient(
@@ -107,14 +91,6 @@ $notice_content_color: #ffffff;
 		$linear_gradient_color_1,
 		$linear_gradient_color_2);
 
-=======
-	background-image: url('images/template/transparent-bars.png'),
-	linear-gradient(
-		to top right,
-		$linear_gradient_color_1,
-		$linear_gradient_color_2);
-	background-size: cover;
->>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
 	>div.title {
 		font-family: $font_family_1;
 		font-size: 75px;
@@ -142,19 +118,11 @@ $notice_content_color: #ffffff;
 }
 .aae-section__container.footer {
 	background-color: $background_color_footer;
-<<<<<<< HEAD
 	background-image: linear-gradient(
 		to bottom,
 		$linear_gradient_color_1,
 		$linear_gradient_color_2),
 	url('');
-=======
-	background-image: url(''),
-	linear-gradient(
-		to top right,
-		$linear_gradient_color_1,
-		$linear_gradient_color_2);
->>>>>>> eb7c2e32fa1882d975715a9e4b2664b2813bd0b2
 	padding: 32px;
 }
 .signup-form__content {
