@@ -10,13 +10,11 @@ class Section extends Component {
            src={`../../style/images/${this.props.image}`}/>
         </div>
         <div className='wrapper'>
-          <div className='feature__action'>Collect.</div>
-          <div className='feature__action'>Construct.</div>
-          <div className='feature__action'>Battle.</div>
+          <div className='feature__action'>{this.props.titles[0]}</div>
+          <div className='feature__action'>{this.props.titles[1]}</div>
+          <div className='feature__action'>{this.props.titles[2]}</div>
           <div className='feature__result'>
-            Collect different parts of the brain using different neurons.
-            Battle to increase their strength. Try various combinations
-            to come up with the ultimate brain!
+            {this.props.description}
           </div>
         </div>
       </div>

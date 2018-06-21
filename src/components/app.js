@@ -17,7 +17,7 @@ export default class App extends Component {
           subTitle={Constants.headerData.subTitle}/>
         <Section
           image={Constants.sectionData[0].image}
-          title={Constants.sectionData[0].title}
+          titles={Constants.sectionData[0].titles}
           description={Constants.sectionData[0].description}/>
         <Footer
           title={Constants.footerData.title}
