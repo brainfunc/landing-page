@@ -249,6 +249,12 @@ $notice_content_color: #fff;
 		}
 	}
 	.aae-section__container.header {
+		background-image:
+		url('images/template/background.svg'),
+		linear-gradient(
+			to bottom right,
+			$linear_gradient_color_1,
+			$linear_gradient_color_2);
 		>div.title {
 			font-size: 50px;
 		}

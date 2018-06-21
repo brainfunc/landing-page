@@ -183,12 +183,14 @@
     margin-left: 30%; }
   .aae-section__container > div.wrapper > div.feature__result {
     font-size: 1.25em; }
-  .aae-section__container.header > div.title {
-    font-size: 50px; }
-  .aae-section__container.header > div.sub-title {
-    font-size: 24px;
-    margin-left: 8%;
-    margin-right: 8%; }
+  .aae-section__container.header {
+    background-image: url("images/template/background.svg"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
+    .aae-section__container.header > div.title {
+      font-size: 50px; }
+    .aae-section__container.header > div.sub-title {
+      font-size: 24px;
+      margin-left: 8%;
+      margin-right: 8%; }
   .signup-form__content > form > input.email {
     width: 80%;
     margin-left: 10%; }
