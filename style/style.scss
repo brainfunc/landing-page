@@ -274,7 +274,7 @@ $notice_content_color: #fff;
 				}
 			}
 		}
-	
+
 
 	.aae-section__container.header {
 		>div.wrapper {
@@ -344,6 +344,15 @@ $notice_content_color: #fff;
 		background-image:
 		url('images/template/neural-network-light.svg');
 		>div.wrapper {
+			display: block;
+			padding: 32px;
+			height: 100%;
+			text-align: center;
+			>img.feature__image {
+				width: 80%;
+				margin-left: 10%;
+				margin-bottom: 0%;
+			}
 			>div.title {
 				font-size: 50px;
 			}
@@ -351,10 +360,26 @@ $notice_content_color: #fff;
 				font-size: 24px;
 				margin-left: 8%;
 				margin-right: 8%;
+				margin-bottom: 0%;
+				margin-top: 0%;
 			}
 		}
 	}
 
+	.aae-section__container.type-one {
+		>div.wrapper {
+			display: block;
+			padding: 32px;
+			height: 100%;
+			text-align: center;
+			>img.feature__image {
+				width: 80%;
+				margin-left: 10%;
+				margin-bottom: 0%;
+			}
+		}
+	}
+	
 	.aae-section__container.three-components {
 		>div.wrapper {
 			display: block;
