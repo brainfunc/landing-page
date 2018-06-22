@@ -2,15 +2,15 @@ $font_family_1: 'Avenir', sans-serif;
 $font_family_2: 'Avenir next', sans-serif;
 $font_family_3: 'Moderneratrial', sans-serif;
 // Yellow gradient
-$linear_gradient_color_1: #f8b500;
-$linear_gradient_color_2: #fceabb;
+// $linear_gradient_color_1: #f8b500;
+// $linear_gradient_color_2: #fceabb;
 
 // Red gradient
 //$linear_gradient_color_1: #E07477;
 //$linear_gradient_color_2: #f09358;
 // Green gradient
-// $linear_gradient_color_1: #3FCD9B;
-// $linear_gradient_color_2: #236A91;
+$linear_gradient_color_1: #3FCD9B;
+$linear_gradient_color_2: #236A91;
 $background_color_dark: #fff;
 $background_color_light: #fff;
 $background_color_submit: #fdcd18;
@@ -94,6 +94,7 @@ $notice_content_color: #fff;
 .aae-section__container.header {
 	padding-top: 32px;
 	padding-bottom: 96px;
+	border-bottom: 2px solid #eeeeee;
 	background-color: $background_color_dark;
 	background-repeat: repeat;
 	background-size:auto;
@@ -101,6 +102,10 @@ $notice_content_color: #fff;
 	url('images/template/neural-network-light.png');
 
 		>div.wrapper {
+			>img.feature__image {
+				width:80%;
+				margin-top: 0%;
+			}
 			>div.title {
 				font-family: $font_family_1;
 				font-size: 75px;
@@ -241,6 +246,10 @@ $notice_content_color: #fff;
 	}
 	.aae-section__container.header {
 		>div.wrapper {
+			>img.feature__image {
+				width:80%;
+				margin-top: 15%;
+			}
 			>div.title {
 				font-size: 4em;
 			}
@@ -278,6 +287,10 @@ $notice_content_color: #fff;
 
 	.aae-section__container.header {
 		>div.wrapper {
+			>img.feature__image {
+				width: 70%;
+				margin-bottom: -20%;
+			}
 			>div.title {
 				font-size: 4em;
 			}
@@ -351,7 +364,7 @@ $notice_content_color: #fff;
 			>img.feature__image {
 				width: 80%;
 				margin-left: 10%;
-				margin-bottom: 0%;
+				margin-bottom: -30%;
 			}
 			>div.title {
 				font-size: 50px;
@@ -379,7 +392,7 @@ $notice_content_color: #fff;
 			}
 		}
 	}
-	
+
 	.aae-section__container.three-components {
 		>div.wrapper {
 			display: block;
