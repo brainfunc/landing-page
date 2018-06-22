@@ -11,6 +11,7 @@ $font_family_3: 'Moderneratrial', sans-serif;
 // Green gradient
 $linear_gradient_color_1: #3FCD9B;
 $linear_gradient_color_2: #236A91;
+$background_color_header: #f3f1ee;
 $background_color_dark: #fff;
 $background_color_light: #fff;
 $background_color_submit: #fdcd18;
@@ -19,7 +20,8 @@ $header_title_color: #212121;
 $header_content_color: #7c7c7c;
 $section_content_color_action: #212121;
 $section_content_color_result: #7c7c7c;
-$notice_content_color: #fff;
+$notice_title_color: #212121;
+$notice_content_color: #7c7c7c;
 
 #logo-image {
 	width: 15%;
@@ -95,7 +97,7 @@ $notice_content_color: #fff;
 	padding-top: 32px;
 	padding-bottom: 96px;
 	border-bottom: 2px solid #eeeeee;
-	background-color: $background_color_dark;
+	background-color: $background_color_header;
 	background-repeat: repeat;
 	background-size:auto;
 	background-image:
@@ -169,12 +171,12 @@ $notice_content_color: #fff;
 	}
 }
 .aae-section__container.footer {
-	background-color: $background_color_footer;
-	background-image: linear-gradient(
-		to bottom,
-		$linear_gradient_color_1,
-		$linear_gradient_color_2),
-	url('');
+	background-color: $background_color_header;
+	//background-image: linear-gradient(
+	//	to bottom,
+	//	$linear_gradient_color_1,
+	//	$linear_gradient_color_2),
+	// url('');
 	padding: 32px;
 }
 .signup-form__content {
@@ -182,7 +184,7 @@ $notice_content_color: #fff;
 		font-family: $font_family_2;
 		font-size: 2.5em;
 		font-weight: 600;
-		color: white;
+		color: $notice_title_color;
 		text-align: center;
 		margin-bottom: 32px;
 	}
