@@ -1,13 +1,22 @@
 $font_family_1: 'Avenir', sans-serif;
 $font_family_2: 'Avenir next', sans-serif;
 $font_family_3: 'Moderneratrial', sans-serif;
-$linear_gradient_color_1: #3FCD9B;
-$linear_gradient_color_2: #236A91;
+// Yellow gradient
+$linear_gradient_color_1: #f8b500;
+$linear_gradient_color_2: #fceabb;
+
+// Red gradient
+//$linear_gradient_color_1: #E07477;
+//$linear_gradient_color_2: #f09358;
+// Green gradient
+// $linear_gradient_color_1: #3FCD9B;
+// $linear_gradient_color_2: #236A91;
 $background_color_dark: #fff;
 $background_color_light: #fff;
 $background_color_submit: #fdcd18;
 $background_color_footer: #f09358;
-$header_content_color: #fff;
+$header_title_color: #545355;
+$header_content_color: #7c7c7c;
 $section_content_color_action: #212121;
 $section_content_color_result: #7c7c7c;
 $notice_content_color: #fff;
@@ -46,6 +55,9 @@ $notice_content_color: #fff;
 			width: 60%;
 			margin-left: 20%;
 			margin-top: 10%;
+		}
+		>img.feature__image.header {
+			margin-top: 20%;
 		}
 		>div.feature__action {
 			font-family: $font_family_3;
@@ -86,39 +98,41 @@ $notice_content_color: #fff;
 	padding-top: 32px;
 	padding-bottom: 96px;
 	background-color: $background_color_dark;
-	background-repeat: repeat;
-	background-size:auto;
+	background-repeat: no-repeat;
+	background-size:cover;
 	background-image:
-	url('images/template/background2.png'),
+	url('images/template/neural-network.svg'),
 	linear-gradient(
 		to bottom right,
 		$linear_gradient_color_1,
 		$linear_gradient_color_2);
 
-	>div.title {
-		font-family: $font_family_1;
-		font-size: 75px;
-		font-weight: 700;
-		color: $header_content_color;
-		text-align: center;
-		margin-top: 80px;
-		margin-left: 10%;
-		margin-right: 10%;
-		margin-bottom: 20px;
-		line-height: 1.0;
-	}
-	>div.sub-title {
-		font-family: $font_family_1;
-		font-size: 40px;
-		font-weight: 400;
-		color: $header_content_color;
-		text-align: center;
-		margin-top: 40px;
-		margin-left: 15%;
-		margin-right: 15%;
-		margin-bottom: 20px;
-		line-height: 1.25;
-	}
+		>div.wrapper {
+			>div.title {
+				font-family: $font_family_1;
+				font-size: 75px;
+				font-weight: 700;
+				color: $header_title_color;
+				text-align: center;
+				margin-top: 80px;
+				margin-left: 10%;
+				margin-right: 10%;
+				margin-bottom: 20px;
+				line-height: 1.0;
+			}
+			>div.sub-title {
+				font-family: $font_family_1;
+				font-size: 40px;
+				font-weight: 400;
+				color: $header_content_color;
+				text-align: center;
+				margin-top: 40px;
+				margin-left: 15%;
+				margin-right: 15%;
+				margin-bottom: 20px;
+				line-height: 1.25;
+			}
+		}
 }
 .aae-section__container.three-components {
 	>div.wrapper {
@@ -225,7 +239,20 @@ $notice_content_color: #fff;
 	.aae-section__container {
 		>div.wrapper {
 			>img.feature__image {
-				margin-top: 35%;
+				margin-top: 25%;
+			}
+			>img.feature__image.header {
+				margin-top: 30%;
+			}
+		}
+	}
+	.aae-section__container.header {
+		>div.wrapper {
+			>div.title {
+				font-size: 3.5em;
+			}
+			>div.sub-title {
+				font-size: 1.75em;
 			}
 		}
 	}
@@ -243,6 +270,7 @@ $notice_content_color: #fff;
 			>img.feature__image {
 				width: 80%;
 				margin-left: 10%;
+				margin-top:35%;
 			}
 			>div.feature__result {
 				font-size: 1.5em;
@@ -258,14 +286,15 @@ $notice_content_color: #fff;
 	}
 
 	.aae-section__container.header {
-		>div.title {
-			font-size: 60px;
+		>div.wrapper {
+			>div.title {
+				font-size: 3em;
+			}
+			>div.sub-title {
+				font-size: 1.5em;
+			}
 		}
-		>div.sub-title {
-			font-size: 32px;
-			margin-left: 12%;
-			margin-right: 12%;
-		}
+
 	}
 
 	.aae-section__container.three-components {
@@ -323,18 +352,20 @@ $notice_content_color: #fff;
 	}
 	.aae-section__container.header {
 		background-image:
-		url('images/template/background2.svg'),
+		url('images/template/neural-network.svg'),
 		linear-gradient(
 			to bottom right,
 			$linear_gradient_color_1,
 			$linear_gradient_color_2);
-		>div.title {
-			font-size: 50px;
-		}
-		>div.sub-title {
-			font-size: 24px;
-			margin-left: 8%;
-			margin-right: 8%;
+		>div.wrapper {
+			>div.title {
+				font-size: 50px;
+			}
+			>div.sub-title {
+				font-size: 24px;
+				margin-left: 8%;
+				margin-right: 8%;
+			}
 		}
 	}
 

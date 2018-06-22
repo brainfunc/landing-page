@@ -30,6 +30,8 @@
     width: 60%;
     margin-left: 20%;
     margin-top: 10%; }
+  .aae-section__container > div.wrapper > img.feature__image.header {
+    margin-top: 20%; }
   .aae-section__container > div.wrapper > div.feature__action {
     font-family: "Moderneratrial", sans-serif;
     font-size: 3.25em;
@@ -63,25 +65,25 @@
   padding-top: 32px;
   padding-bottom: 96px;
   background-color: #fff;
-  background-repeat: repeat;
-  background-size: auto;
-  background-image: url("images/template/background2.png"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
-  .aae-section__container.header > div.title {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/template/neural-network.svg"), linear-gradient(to bottom right, #f8b500, #fceabb); }
+  .aae-section__container.header > div.wrapper > div.title {
     font-family: "Avenir", sans-serif;
     font-size: 75px;
     font-weight: 700;
-    color: #fff;
+    color: #545355;
     text-align: center;
     margin-top: 80px;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 20px;
     line-height: 1.0; }
-  .aae-section__container.header > div.sub-title {
+  .aae-section__container.header > div.wrapper > div.sub-title {
     font-family: "Avenir", sans-serif;
     font-size: 40px;
     font-weight: 400;
-    color: #fff;
+    color: #7c7c7c;
     text-align: center;
     margin-top: 40px;
     margin-left: 15%;
@@ -122,7 +124,7 @@
 
 .aae-section__container.footer {
   background-color: #f09358;
-  background-image: linear-gradient(to bottom, #3FCD9B, #236A91), url("");
+  background-image: linear-gradient(to bottom, #f8b500, #fceabb), url("");
   padding: 32px; }
 
 .signup-form__content > div.title {
@@ -177,7 +179,13 @@
     width: 25%;
     margin-left: 37.5%; }
   .aae-section__container > div.wrapper > img.feature__image {
-    margin-top: 35%; } }
+    margin-top: 25%; }
+  .aae-section__container > div.wrapper > img.feature__image.header {
+    margin-top: 30%; }
+  .aae-section__container.header > div.wrapper > div.title {
+    font-size: 3.5em; }
+  .aae-section__container.header > div.wrapper > div.sub-title {
+    font-size: 1.75em; } }
 
 @media (max-width: 768px) {
   #logo-image {
@@ -189,7 +197,8 @@
     padding: 16px; }
     .aae-section__container > div.wrapper > img.feature__image {
       width: 80%;
-      margin-left: 10%; }
+      margin-left: 10%;
+      margin-top: 35%; }
     .aae-section__container > div.wrapper > div.feature__result {
       font-size: 1.5em;
       margin-top: 64px;
@@ -198,12 +207,10 @@
       width: 40%;
       margin: 0%;
       margin-top: 10%; }
-  .aae-section__container.header > div.title {
-    font-size: 60px; }
-  .aae-section__container.header > div.sub-title {
-    font-size: 32px;
-    margin-left: 12%;
-    margin-right: 12%; }
+  .aae-section__container.header > div.wrapper > div.title {
+    font-size: 3em; }
+  .aae-section__container.header > div.wrapper > div.sub-title {
+    font-size: 1.5em; }
   .aae-section__container.three-components > div.wrapper {
     display: inline;
     float: left;
@@ -237,10 +244,10 @@
   .aae-section__container > div.wrapper > div.feature__result {
     font-size: 1.35em; }
   .aae-section__container.header {
-    background-image: url("images/template/background2.svg"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
-    .aae-section__container.header > div.title {
+    background-image: url("images/template/neural-network.svg"), linear-gradient(to bottom right, #f8b500, #fceabb); }
+    .aae-section__container.header > div.wrapper > div.title {
       font-size: 50px; }
-    .aae-section__container.header > div.sub-title {
+    .aae-section__container.header > div.wrapper > div.sub-title {
       font-size: 24px;
       margin-left: 8%;
       margin-right: 8%; }
