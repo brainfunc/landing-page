@@ -11,7 +11,7 @@ export const footerData = {
 
 export const sectionData = [
     {
-      image: 'custom/sections/neurons.svg',
+      image: 'custom/sections/network3.svg',
       titles: ['Collect.', ' Construct.', 'Battle.'],
       description: `BrainFunc is a learning adventure where you can apply your
         knowledge of neuroscience to compete and win in battles.`

@@ -63,9 +63,9 @@
   padding-top: 32px;
   padding-bottom: 96px;
   background-color: #fff;
-  background-repeat: no-repeat;
-  background-image: url("images/template/background-min.png"), linear-gradient(to bottom right, #3FCD9B, #236A91);
-  background-size: cover; }
+  background-repeat: repeat;
+  background-size: auto;
+  background-image: url("images/template/background2.png"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
   .aae-section__container.header > div.title {
     font-family: "Avenir", sans-serif;
     font-size: 75px;
@@ -237,7 +237,7 @@
   .aae-section__container > div.wrapper > div.feature__result {
     font-size: 1.35em; }
   .aae-section__container.header {
-    background-image: url("images/template/background.svg"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
+    background-image: url("images/template/background2.svg"), linear-gradient(to bottom right, #3FCD9B, #236A91); }
     .aae-section__container.header > div.title {
       font-size: 50px; }
     .aae-section__container.header > div.sub-title {
