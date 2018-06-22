@@ -65,14 +65,14 @@
   padding-top: 32px;
   padding-bottom: 96px;
   background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("images/template/neural-network.svg"), linear-gradient(to bottom right, #f8b500, #fceabb); }
+  background-repeat: repeat;
+  background-size: auto;
+  background-image: url("images/template/neural-network-light.png"); }
   .aae-section__container.header > div.wrapper > div.title {
     font-family: "Avenir", sans-serif;
     font-size: 75px;
     font-weight: 700;
-    color: #545355;
+    color: #212121;
     text-align: center;
     margin-top: 80px;
     margin-left: 10%;
@@ -244,7 +244,7 @@
   .aae-section__container > div.wrapper > div.feature__result {
     font-size: 1.35em; }
   .aae-section__container.header {
-    background-image: url("images/template/neural-network.svg"), linear-gradient(to bottom right, #f8b500, #fceabb); }
+    background-image: url("images/template/neural-network-light.svg"); }
     .aae-section__container.header > div.wrapper > div.title {
       font-size: 50px; }
     .aae-section__container.header > div.wrapper > div.sub-title {

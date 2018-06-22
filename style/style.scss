@@ -15,7 +15,7 @@ $background_color_dark: #fff;
 $background_color_light: #fff;
 $background_color_submit: #fdcd18;
 $background_color_footer: #f09358;
-$header_title_color: #545355;
+$header_title_color: #212121;
 $header_content_color: #7c7c7c;
 $section_content_color_action: #212121;
 $section_content_color_result: #7c7c7c;
@@ -98,14 +98,10 @@ $notice_content_color: #fff;
 	padding-top: 32px;
 	padding-bottom: 96px;
 	background-color: $background_color_dark;
-	background-repeat: no-repeat;
-	background-size:cover;
+	background-repeat: repeat;
+	background-size:auto;
 	background-image:
-	url('images/template/neural-network.svg'),
-	linear-gradient(
-		to bottom right,
-		$linear_gradient_color_1,
-		$linear_gradient_color_2);
+	url('images/template/neural-network-light.png');
 
 		>div.wrapper {
 			>div.title {
@@ -352,11 +348,7 @@ $notice_content_color: #fff;
 	}
 	.aae-section__container.header {
 		background-image:
-		url('images/template/neural-network.svg'),
-		linear-gradient(
-			to bottom right,
-			$linear_gradient_color_1,
-			$linear_gradient_color_2);
+		url('images/template/neural-network-light.svg');
 		>div.wrapper {
 			>div.title {
 				font-size: 50px;
