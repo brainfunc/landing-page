@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <div className='aae-section__container header'>
         <div className='wrapper'>
-          <img className='feature__image header' src={`../../style/images/${this.props.logoImage}`}/>
+          <img className='feature__image' src={`../../style/images/${this.props.logoImage}`}/>
         </div>
         <div className='wrapper'>
           <div className='title'> {this.props.title} </div>

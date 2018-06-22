@@ -1,5 +1,5 @@
 export const headerData = {
-  logoImage: 'custom/header/logo.png',
+  logoImage: 'custom/header/logo-2.svg',
   title: 'BrainFunc',
   subTitle: `Learn about the Brain. Fight epic Battles. Build the ultimate Brain on the Blockchain!`
 }
