@@ -9,6 +9,7 @@ $font_family_3: 'Moderneratrial', sans-serif;
 //$linear_gradient_color_1: #E07477;
 //$linear_gradient_color_2: #f09358;
 // Green gradient
+$background_color_basic: #fff;
 $linear_gradient_color_1: #3FCD9B;
 $linear_gradient_color_2: #236A91;
 $background_color_header: #f3f1ee;
@@ -97,23 +98,25 @@ $notice_content_color: #7c7c7c;
 	padding-top: 32px;
 	padding-bottom: 96px;
 	border-bottom: 2px solid #eeeeee;
-	background-color: $background_color_header;
+	background-color: $background_color_basic;
 	background-repeat: repeat;
 	background-size:auto;
 	background-image:
-	url('images/template/neural-network-light.png');
+	url('images/template/neural-network-light.svg');
 
 		>div.wrapper {
 			>img.feature__image {
 				width:80%;
 				margin-top: 0%;
+				margin-left: 10%;
+				margin-right: 10%;
 			}
 			>div.title {
 				font-family: $font_family_1;
 				font-size: 75px;
 				font-weight: 700;
 				color: $header_title_color;
-				text-align: center;
+				text-align: left;
 				margin-top: 80px;
 				margin-left: 10%;
 				margin-right: 10%;
@@ -125,9 +128,9 @@ $notice_content_color: #7c7c7c;
 				font-size: 40px;
 				font-weight: 400;
 				color: $header_content_color;
-				text-align: center;
+				text-align: left;
 				margin-top: 40px;
-				margin-left: 15%;
+				margin-left: 10%;
 				margin-right: 15%;
 				margin-bottom: 20px;
 				line-height: 1.25;
@@ -254,9 +257,11 @@ $notice_content_color: #7c7c7c;
 			}
 			>div.title {
 				font-size: 4em;
+				margin-left: 5%;
 			}
 			>div.sub-title {
 				font-size: 2em;
+				margin-left: 5%;
 			}
 		}
 	}
@@ -291,13 +296,15 @@ $notice_content_color: #7c7c7c;
 		>div.wrapper {
 			>img.feature__image {
 				width: 70%;
-				margin-bottom: -20%;
+				margin-bottom: 0%;
 			}
 			>div.title {
 				font-size: 4em;
+				text-align: center;
 			}
 			>div.sub-title {
 				font-size: 2em;
+				text-align: center;
 			}
 		}
 	}
@@ -366,7 +373,7 @@ $notice_content_color: #7c7c7c;
 			>img.feature__image {
 				width: 80%;
 				margin-left: 10%;
-				margin-bottom: -30%;
+				margin-bottom: -10%;
 			}
 			>div.title {
 				font-size: 50px;
