@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 class SectionTypeTwo extends Component {
   render() {
     return (
-      <div className='aae-section__container three-components'>
+      <div className='aae-section__container type-two'>
         <div className='wrapper'>
           <img className='feature__image'
            src={`../../style/images/${this.props.images[0]}`}/>

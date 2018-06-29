@@ -1,0 +1,79 @@
+@import "../constants/constants.scss";
+
+.aae-section__container.footer {
+	background-color: $background_color_header;
+	//background-image: linear-gradient(
+	//	to bottom,
+	//	$linear_gradient_color_1,
+	//	$linear_gradient_color_2),
+	// url('');
+	padding: 32px;
+}
+
+.signup-form__content {
+	>div.title {
+		font-family: $font_family_2;
+		font-size: 2.5em;
+		font-weight: 600;
+		color: $notice_title_color;
+		text-align: center;
+		margin-bottom: 32px;
+	}
+	>div.notice {
+		color: $notice_content_color;
+    opacity: 0.4;
+		font-size: 14px;
+		font-family: $font_family_2;
+		font-weight: 400;
+		text-align: center;
+		margin-top: 32px;
+	}
+	>form {
+		font-family: $font_family_3;
+		font-size: 18px;
+		font-weight: 300;
+		>input.email {
+			border-radius: 8px;
+			border: 1px solid #fff;
+			margin-left: 36.25%;
+			width: 27.5%;
+			height: 50px;
+			padding-left: 16px;
+			padding-right: 16px;
+			display: block;
+			text-align: center;
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		>button.submit-button {
+			border-radius: 8px;
+			border: 1px solid $background_color_submit;
+			margin-top: 16px;
+			margin-left: 36.25%;
+			width: 27.5%;
+			height: 48px;
+			color: #fff;
+			background-color: $background_color_submit;
+			display: block;
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			&:hover {
+				opacity: 0.75;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.signup-form__content {
+		>form {
+			>input.email {
+				width: 40%;
+				margin-left: 30%;
+			}
+			>button.submit-button {
+				width: 40%;
+				margin-left: 30%;
+			}
+		}
+	}
+}
