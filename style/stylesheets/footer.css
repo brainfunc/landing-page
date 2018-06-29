@@ -1,5 +1,6 @@
 .aae-section__container.footer {
   background-color: #f3f1ee;
+  background-image: url("../images/template/neural-network-light.svg");
   padding: 32px; }
 
 .signup-form__content > div.title {
@@ -26,8 +27,8 @@
   .signup-form__content > form > input.email {
     border-radius: 8px;
     border: 1px solid #fff;
-    margin-left: 36.25%;
-    width: 27.5%;
+    margin-left: 30%;
+    width: 40%;
     height: 50px;
     padding-left: 16px;
     padding-right: 16px;
@@ -38,8 +39,8 @@
     border-radius: 8px;
     border: 1px solid #fdcd18;
     margin-top: 16px;
-    margin-left: 36.25%;
-    width: 27.5%;
+    margin-left: 30%;
+    width: 40%;
     height: 48px;
     color: #fff;
     background-color: #fdcd18;
@@ -49,10 +50,26 @@
       opacity: 0.75;
       cursor: pointer; }
 
+@media (max-width: 1024px) {
+  .signup-form__content > form > input.email {
+    width: 70%;
+    margin-left: 15%; }
+  .signup-form__content > form > button.submit-button {
+    width: 70%;
+    margin-left: 15%; } }
+
 @media (max-width: 768px) {
   .signup-form__content > form > input.email {
-    width: 40%;
-    margin-left: 30%; }
+    width: 60%;
+    margin-left: 20%; }
   .signup-form__content > form > button.submit-button {
-    width: 40%;
-    margin-left: 30%; } }
+    width: 60%;
+    margin-left: 20%; } }
+
+@media (max-width: 512px) {
+  .signup-form__content > form > input.email {
+    width: 80%;
+    margin-left: 10%; }
+  .signup-form__content > form > button.submit-button {
+    width: 80%;
+    margin-left: 10%; } }
