@@ -46,7 +46,8 @@
     font-family: "Avenir next", sans-serif;
     opacity: 0.75;
     width: 70%;
-    margin-top: 5%; }
+    margin-top: 5%;
+    outline: none; }
   .aae-section__container.header > div.wrapper > .signup-button:hover {
     background-color: rgba(209, 77, 93, 0.3); }
 

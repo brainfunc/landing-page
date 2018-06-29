@@ -65,7 +65,10 @@ class Footer extends Component {
               onChange={this.handleChange}
               className='email'
               placeholder='username@example.com'/>
-            <button type='submit' className='submit-button'> Submit </button>
+            <button
+            type='submit'
+            ref='signup_anchor'
+            className='submit-button'> Submit </button>
           </form>
           <div className='notice'> © Tejas Nikumbh 2018. All rights reserved </div>
         </div>
