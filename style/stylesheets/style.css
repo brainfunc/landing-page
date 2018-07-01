@@ -1,5 +1,11 @@
+body {
+  background-color: #f3f1ee; }
+
 .app__container {
   width: 100vw; }
 
 .aae__container {
-  width: 100%; }
+  width: 100%;
+  padding-top: 10%;
+  background-color: #f3f1ee;
+  background-image: url("../images/template/neural-network-light.svg"); }

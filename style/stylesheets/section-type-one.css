@@ -1,3 +1,6 @@
+.aae-section__container.type-one {
+  border-top: 2px solid #eeeeee; }
+
 @media (max-width: 512px) {
   .aae-section__container.type-one > div.wrapper {
     display: block;
