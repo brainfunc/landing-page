@@ -3,6 +3,12 @@
 body {
 	background-color: $background_color_header;
 }
+
+::placeholder {
+		color: $notice_content_color;
+		opacity: 0.35;
+}
+
 .app__container {
 	width: 100vw;
 }
