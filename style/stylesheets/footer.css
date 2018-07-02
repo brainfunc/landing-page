@@ -12,8 +12,8 @@
   margin-bottom: 32px; }
 
 .signup-form__content > div.notice {
-  color: #7c7c7c;
-  opacity: 0.4;
+  color: #9b9b9b;
+  opacity: 0.8;
   font-size: 14px;
   font-family: "Avenir next", sans-serif;
   font-weight: 400;
@@ -25,8 +25,10 @@
   font-size: 18px;
   font-weight: 300; }
   .signup-form__content > form > input.email {
-    border-radius: 8px;
-    border: 1px solid #fff;
+    background-color: #4a4a4a;
+    color: #fff;
+    border-radius: 32px;
+    border: 0px solid #fff;
     margin-left: 30%;
     width: 40%;
     height: 50px;
@@ -34,19 +36,17 @@
     padding-right: 16px;
     display: block;
     text-align: center;
-    outline: none;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    outline: none; }
   .signup-form__content > form > button.submit-button {
-    border-radius: 8px;
-    border: 1px solid #fdcd18;
+    border-radius: 32px;
+    border: 0px solid #CC4D4D;
     margin-top: 16px;
     margin-left: 30%;
     width: 40%;
     height: 48px;
     color: #fff;
-    background-color: #fdcd18;
-    display: block;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    background-color: #CC4D4D;
+    display: block; }
     .signup-form__content > form > button.submit-button:hover {
       opacity: 0.75;
       cursor: pointer; }

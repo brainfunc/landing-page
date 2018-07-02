@@ -47,7 +47,7 @@
         height: 50px;
         padding-left: 40px;
         padding-right: 40px;
-				background-color: #d34b5b;
+				background-color: $background_color_submit;
         color: #fff;
 				font-weight: 400;
 				font-family: $font_family_2;
@@ -56,9 +56,13 @@
 				margin-top: 5%;
 				outline: none;
       }
-      >.signup-button:hover {
-				background-color: rgba(209, 77, 93, 0.3);
-      }
+			>.signup-button:hover {
+				opacity: 0.8;
+			}
+			>.signup-button:focus {
+				//background-color: rgba(209, 77, 93, 0.3);
+				opacity: 1.0;
+			}
 		}
 }
 
