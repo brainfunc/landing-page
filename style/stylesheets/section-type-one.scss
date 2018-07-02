@@ -18,3 +18,28 @@
 		}
 	}
 }
+
+@media (max-width: 412px) {
+	.aae-section__container.type-one {
+		>div.wrapper {
+			>div.feature__action {
+				width:100%;
+				margin-left:0%;
+				padding-left:0%;
+				font-size: 3em;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 300px) {
+	.aae-section__container.type-one {
+		>div.wrapper {
+			>div.feature__action {
+				width:100%;
+				font-size: 2.4em;
+			}
+		}
+	}
+}
