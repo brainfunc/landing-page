@@ -25,7 +25,7 @@
   font-size: 18px;
   font-weight: 300; }
   .signup-form__content > form > input.email {
-    background-color: #4a4a4a;
+    background-color: #4e4e4e;
     color: #fff;
     border-radius: 32px;
     border: 0px solid #fff;
@@ -39,13 +39,13 @@
     outline: none; }
   .signup-form__content > form > button.submit-button {
     border-radius: 32px;
-    border: 0px solid #CC4D4D;
+    border: 0px solid #d34a5b;
     margin-top: 16px;
     margin-left: 30%;
     width: 40%;
     height: 48px;
     color: #fff;
-    background-color: #CC4D4D;
+    background-color: #d34a5b;
     display: block; }
     .signup-form__content > form > button.submit-button:hover {
       opacity: 0.75;
